@@ -18,116 +18,81 @@
       method="post"
       class="form"
       >
-
-      <fieldset>
+      <fieldset class="form">
         <legend>Personal information</legend>
         <label class="naming">
           Surname:
-          <input
-          type="text"
-          name="surname"
-          >
+          <input type="text" name="surname">
         </label>
         <label class="naming">
           Name:
-          <input
-          type="text"
-          name="Name"
-          >
+          <input type="text" name="Name">
         </label>
         <label class="age">
           How old are You?
           <input
-          type="number"
-          name="age"
-          value="12"
-          class="ageSize"
+            type="number"
+            name="age"
+            value="12"
+            class="ageSize"
           >
         </label>
         <label class="naming">
           Full date of birth:
           <input
-          type="date"
-          name="date"
-          id="start"
-          min="1900-01-01"
+            type="date"
+            name="date"
+            id="start"
+            min="1900-01-01"
           >
         </label>
-        <label class="fnamingForm2">
+        <label class="namingForm2">
           I accept the term of the agreement
-          <input
-          type="checkbox"
-          name="terms"
-          >
+          <input type="checkbox" name="terms">
         </label>
       </fieldset>
-    </form>
-
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    class="form">
-      <fieldset>
+      <fieldset class="form">
         <legend>Registration</legend>
         <label class="naming">
           E-mail:
           <input
-          type="email"
-          name="email"
-          placeholder="email@example.com"
+            type="email"
+            name="email"
+            placeholder="email@example.com"
           >
         </label>
         <label class="namingForm2">
           Password:
-          <input
-          type="password"
-          name="password"
-          >
+          <input type="password" name="password">
         </label>
       </fieldset>
-    </form>
-
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    class="form">
-      <fieldset>
+      <fieldset class="form">
         <legend>An interesting fact about you!</legend>
         <div class="naming2">
           <label>
            Do you love cats?
-            <input
-            type="radio"
-            name="pet"
-            >
-            Yes
+            <input type="radio" name="pet">
+              Yes
           </label>
           <label>
-            <input
-            type="radio"
-            name="pet"
-            >
-            No
+            <input type="radio" name="pet">
+              No
           </label>
         </div>
         <label class="naming">
           What is your favorite color?
-          <input
-          type="color"
-          name="color"
-          >
+          <input type="color" name="color">
         </label>
         <label class="naming">
           What time do you go to bed?
-          <input
-          type="time"
-          name="bedTime"
-          >
+          <input type="time" name="bedTime">
         </label>
         <label class="naming">
           What are your favorit brand of car?
           <select
-          name="cars"
-          id="brandCars"
-          multiple
+            name="cars"
+            id="brandCars"
+            multiple
           >
             <option value="bmw">BMW</option>
             <option value="Audi">Audi</option>
@@ -137,28 +102,23 @@
         <label class="namingForm2">
           How do you rate our work?
           <input
-          type="range"
-          name="rating"
-          value="50%"
+            type="range"
+            name="rating"
+            value="50%"
           >
         </label>
       </fieldset>
-    </form>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    class="form">
-      <fieldset>
+      <fieldset class="form">
         <legend>Additional info:</legend>
         <label class="naming">
         Comments:
           <textarea name="feedBack"></textarea>
         </label>
-
         <label class="namingForm2">
          Would you recommend us?
           <select
-          name="recommendation"
-          id="recomend">
+            name="recommendation"
+            id="recomend">
             <option value="Yes">yes</option>
             <option value="No">no</option>
           </select>
